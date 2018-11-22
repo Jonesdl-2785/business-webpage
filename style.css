@@ -21,12 +21,12 @@ li {
 a {
   text-decoration: none;
 }
+
 section:after {
   content: "";
   display: block;
   clear: both;
 }
-
 /* End Page Style */
 /* Header */
 header {
@@ -149,7 +149,7 @@ section.features-section h2 {
 section.features-section figure {
   margin: 1%;
   position: relative;
-  width: 31.3333%;
+  width: 31.333%;
   float: left;
   overflow: hidden;
 }
@@ -234,6 +234,3 @@ section.our-team div.column details p {
   text-indent: 3%;
 }
 /* End Team Section */
-
-section.our-team div.column details {}
-section.our-team div.column details {}
