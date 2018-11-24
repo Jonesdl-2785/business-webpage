@@ -357,3 +357,95 @@ section.gallery img:hover:first-child {
 section.gallery img:hover:last-child {
   transform: scale(2.6, 2.6) rotate(0deg) translate(-35%);
 }
+/* End Gallery Section */
+/* Footer Section */
+footer {
+  width: 100%;
+  padding: 5% 0 1% 0;
+  background: url(img/footer-bg.png) no-repeat top;
+  background-color: #4169e1;
+  background-size: cover;
+  overflow: auto;
+}
+
+footer div {
+  width: 33.3333%;
+  float: left;
+}
+
+footer div h3, footer div p {
+  color: #ddd;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+footer div.stay-updated a {
+  width: 50%;
+  margin: 2px auto;
+  display: block;
+  text-align: center;
+}
+
+footer div.stay-updated a i.fa {
+  width: 100%;
+  padding: 5px 0;
+  border: 1px solid #eee;
+  color: #ddd;
+  font-size: 120%;
+}
+
+footer div.stay-updated a i.fa:hover {
+  color: #fff;
+}
+
+footer div.stay-updated a i.fa-facebook-f:hover {
+  background: #3b5998;
+}
+footer div.stay-updated a i.fa-twitter:hover {
+  background: #55acee;
+}
+footer div.stay-updated a i.fa-linkedin-in:hover {
+  background: #125688;
+}
+footer div.stay-updated a i.fa-youtube-square:hover {
+  background: #ff0000;
+}
+
+footer div.email form input {
+  display: block;
+  margin: 13% auto 0 auto;
+  font-size: 90%;
+  border: 2px solid #ccc;
+  width: 60%;
+  padding: 1%;
+  background: transparent;
+  color: #ddd;
+}
+
+footer div.email form input:focus {
+  border: 2px solid #fff;
+}
+
+footer div.languages a {
+  display: block;
+  width: 30%;
+  margin: 4% auto;
+  color: #ddd;
+}
+
+footer div.languages a:hover {
+  color: #fff;
+}
+
+footer div.languages a#en:before{
+  content: url(img/language-icons/USA-icon.png);
+}
+footer div.languages a#sp:before{
+  content: url(img/language-icons/Spain-icon.png);
+}
+footer div.languages a#fr:before{
+  content: url(img/language-icons/France-icon.png);
+}
+footer div.languages a#it:before{
+  content: url(img/language-icons/Italy-icon.png);
+}
