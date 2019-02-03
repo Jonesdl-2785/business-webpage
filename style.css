@@ -36,7 +36,7 @@ header {
   margin-top: 0;
   margin-bottom: 5%;
   background: linear-gradient(rgba(0,0,0,0.5),
-  rgba(0,0,0,0.5)), url(img/header-bg.jpg) no-repeat center;
+  rgba(0,0,0,0.5)), url(img/header1-bg.jpeg) no-repeat center;
   background-size: cover;
   float: right;
   transition: width .5s;
@@ -243,7 +243,7 @@ section.our-team div.column details p {
 /* Media Section */
 section.video {
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(video/video-bg.jpg) no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(video/video1-bg.jpeg) no-repeat center;
   background-size: cover;
   padding: 5% 0;
   margin-bottom: 3%;
@@ -363,7 +363,7 @@ footer {
   width: 100%;
   padding: 5% 0 1% 0;
   background: url(img/footer-bg.png) no-repeat top;
-  background-color: #4169e1;
+  background-color: #0E1F8C;
   background-size: cover;
   overflow: auto;
 }
